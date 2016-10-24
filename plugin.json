@@ -78,7 +78,7 @@
             "name" : "port",
             "description" : "The port of ElasticSearch node",
             "type" : "integer",
-	    "default" : 9200
+	    "default" : 9200,
 	    "required" : false
         },
 	{
