@@ -21,8 +21,9 @@ In order for the plugin to collect statistics from Elasticsearch, it needs acces
 
 |Field Name    | Description                                                                                              |
 |:-------------|:---------------------------------------------------------------------------------------------------------|
-|Source        | The Source to display in the legend for the haproxy data.  It will default to the hostname of the server.|
-|Statistics URL| The URL endpoint of where the elasticsearch statistics are hosted.                                       |
+|Source        | The Source to display in the legend for the elastic search data.It will default to the hostname of the server.|
+|Host          | The Elastic Search hostname or IP.                                                                       |
+|Port          | The Elastic Search port.                                                                                 |
 |Poll Interval | How often should the plugin poll for metrics.                                                            |
 
 ### Metrics Collected
