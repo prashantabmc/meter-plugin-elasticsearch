@@ -49,8 +49,10 @@ In order for the plugin to collect statistics from Elasticsearch, it needs acces
 
 ### Dashboards
 
-- Elasticsearch
-- Elasticsearch v2
+- ES ClusterStats
+- ES ClusterStats v2
+- ES ClusterHealth
+- ES NodesStats
 
 ### References
 
