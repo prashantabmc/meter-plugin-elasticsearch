@@ -46,6 +46,13 @@ In order for the plugin to collect statistics from Elasticsearch, it needs acces
 | ELASTIC\_SEARCH\_QUERY\_CACHE\_EVICTIONS     | Number of Queries dropped due to LRU (Least Recently Used) policy ( added for Elasticsearch 2.x )        |
 | ELASTIC\_SEARCH\_ID\_CACHE\_MEMORY\_SIZE     | Amount of memory in bytes of the id cache                                |
 | ELASTIC\_SEARCH\_COMPLETION\_SIZE            | Number of completion suggestions returned                                |
+| ELASTIC\_SEARCH\_NO\_OF\_NODES               | Number of Nodes                                                          |
+| ELASTIC\_SEARCH\_NO\_OF\_DATA\_NODES         | Number of Data Nodes                                                     |
+| ELASTIC\_SEARCH\_ACTIVE\_PRIMARY\_SHARDS     | Number of Active Primary Shards                                          |
+| ELASTIC\_SEARCH\_ACTIVE\_SHARDS              | Number of  Active Shards                                                 |
+| ELASTIC\_SEARCH\_RELOCATING\_SHARDS          | Number of Relocating Shards                                              |
+| ELASTIC\_SEARCH\_INITIALISING\_SHARDS        | Number of Initialising Shards                                            |
+| ELASTIC\_SEARCH\_UNASSIGNED\_SHARDS          | Number of Unassigned Shards                                              |
 
 ### Dashboards
 
