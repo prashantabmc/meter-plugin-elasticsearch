@@ -53,6 +53,8 @@ In order for the plugin to collect statistics from Elasticsearch, it needs acces
 | ELASTIC\_SEARCH\_RELOCATING\_SHARDS          | Number of Relocating Shards                                              |
 | ELASTIC\_SEARCH\_INITIALISING\_SHARDS        | Number of Initialising Shards                                            |
 | ELASTIC\_SEARCH\_UNASSIGNED\_SHARDS          | Number of Unassigned Shards                                              |
+| ELASTIC\_SEARCH\_JVM\_UPTIME\_IN\_MILLIS     | JVM uptime in milliseconds                                               |
+| ELASTIC\_SEARCH\_JVM\_MEM\_HEAP\_USED\_PERCENT| JVM heap memory used percent                                            |
 
 ### Dashboards
 
