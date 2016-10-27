@@ -55,6 +55,10 @@ In order for the plugin to collect statistics from Elasticsearch, it needs acces
 | ELASTIC\_SEARCH\_UNASSIGNED\_SHARDS          | Number of Unassigned Shards                                              |
 | ELASTIC\_SEARCH\_JVM\_UPTIME\_IN\_MILLIS     | JVM uptime in milliseconds                                               |
 | ELASTIC\_SEARCH\_JVM\_MEM\_HEAP\_USED\_PERCENT| JVM heap memory used percent                                            |
+| ELASTIC\_SEARCH\_PROCESS\_OPEN\_FILE\_DESCRIPTORS | Process open file descriptors                                       |
+| ELASTIC\_SEARCH\_PROCESS\_MAX\_FILE\_DESCRIPTORS | Process max file descriptors                                         |
+| ELASTIC\_SEARCH\_FS\_DATA\_AVAILABLE\_IN\_BYTES | FS data available in bytes                                            |
+| ELASTIC\_SEARCH\_BREAKERS\_FIELDDATA\_TRIPPED | Breakers field data tripped                                             |
 
 ### Dashboards
 
